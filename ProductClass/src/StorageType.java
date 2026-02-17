@@ -1,0 +1,6 @@
+
+    enum StorageType{
+        COLD,
+        DRY
+    }
+
