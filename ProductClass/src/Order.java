@@ -28,7 +28,7 @@ public class Order {
 
         double amount = product.getPrice() * orderQuantity;
 
-        this.totalAmount = (int) amount;   // explicit casting as per task
+        this.totalAmount = (int) amount;  
 
         product.setQuantity(product.getQuantity() - orderQuantity);
     }
