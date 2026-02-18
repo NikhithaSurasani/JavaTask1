@@ -11,7 +11,6 @@ public class Product {
         setQuantity(quantity);
     }
 
-    // Getters
     public int getProductId() {
         return productId;
     }
@@ -28,7 +27,6 @@ public class Product {
         return quantity;
     }
 
-    // Setters
     public void setProductId(int productId) {
         this.productId = productId;
     }
@@ -53,7 +51,6 @@ public class Product {
         }
     }
 
-    // Display method
     public void Display() {
         System.out.println("----------------------------");
         System.out.println("Product ID   : " + productId);
